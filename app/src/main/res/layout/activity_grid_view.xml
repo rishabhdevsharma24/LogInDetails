@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GridView">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:columnCount="2"
+        android:background="@drawable/pink"
+        app:rowCount="4"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="280dp">
+
+        <Button
+            android:id="@+id/Sinchan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sinchan"
+
+
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+        <Button
+            android:id="@+id/music"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="music"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/ListsViews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ListsViews"
+
+
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+        <Button
+            android:id="@+id/TimeTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TimeTable"
+            app:layout_gravity="fill"
+            android:tag=""
+            app:layout_rowWeight="1"
+
+            app:layout_columnWeight="1"/>
+        <Button
+            android:id="@+id/PlayGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PlayGame"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+
+            app:layout_columnWeight="1"/>
+        <Button
+            android:id="@+id/SignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+        <Button
+            android:id="@+id/CountDownTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop  Watch"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+        <Button
+            android:id="@+id/Sleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guess a Number"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+        <Button
+            android:id="@+id/Celibrity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actors"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/Weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weather App"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+       <Button
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GoogleMap"
+        app:layout_gravity="fill"
+        app:layout_rowWeight="1"
+        app:layout_columnWeight="1"/>
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+        <Button
+            android:id="@+id/HW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hikers Location"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+        <Button
+            android:id="@+id/Second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Second Activity"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+
+        <Button
+            android:id="@+id/Calci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Calculator"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            app:layout_columnWeight="1"/>
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LogIn Details</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="pandey_urf_panda_is_sleepy">Pandey urf Panda is sleepy</string>
+    <string name="can_you_guess_it">Can you Guess it??</string>
+    <string name="i_am_thinking_a_number_between_1_to_10">I am Thinking a Number between 1 to 10</string>
+    <string name="wanna_play_again">Wanna Play Again</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_current_location">Map</string>
+    <string name="title_activity_user_location">Map</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude</string>
+</resources>
